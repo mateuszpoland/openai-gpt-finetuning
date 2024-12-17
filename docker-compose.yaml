@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        GITHUB_ACCESS_TOKEN: ${GITHUB_ACCESS_TOKEN}
+        OPENAI_API_KEY: ${OPENAI_API_KEY}
+    volumes:
+      - './:/app/:rw'
+    env_file:
+      - .env
