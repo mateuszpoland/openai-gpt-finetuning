@@ -1,332 +1,334 @@
 input: STRADA EREMIA GRIGORESCU, NR.11 BL.45B,SC.B NR 11/38, 107065 PLOIESTI
-output: {"street": "Eremia Grigorescu", "house_number": "11", "flat_number": "38", "block": "45B", "staircase": "45B", "floor": "", "apartment": "", "landmark": "", "postcode": "107065", "county": "Prahova", "commune": "", "village": "", "city": "Ploiesti"}
+output: {"street": "Eremia Grigorescu", "house_number": "11", "flat_number": "38", "block": "45B", "staircase": "45B", "floor": "", "apartment": "", "landmark": "", "postcode": "107065", "county": "Prahova", "place_name": "Ploiesti"}
 input: STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "", "city": "Pucioasa"}
+output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "postcode": "", "county": "Dâmbovița", "place_name": "Pucioasa"}
 input: SITEI, 507085 BRASOV
-output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city": "Brașov"}
+output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "place_name": "Brașov"}
 input: BLD I C BRATIANU 27A/27, 110003 PITESTI
-output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "commune": "", "village": "", "city": "Pitesti"}
+output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "place_name": "Pitesti"}
 input: STRADA PRIMĂVERII NR 32 SC B,  BOTOSANI
-output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": ", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}
-input: STR BUCUREȘTI BL 441 SC A AP 3,  VASLUI
-output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": ", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "place_name": "Botoșani"}
+input: STR BUCUREȘTI BL 441 SC A APARTAMENT 3,  VASLUI
+output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: SLT POPA NR.3 BL 15 A SC 1 AP12 INTERFON 12 SECTOR1 3/15A, 051961 BUCUREȘTI
-output: {"street": "SLT POPA", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "12", "postcode": "051961", "county": "București", "commune": "", "village": "", "city": "București, Sector 1"}
+output: {"street": "SLT POPA", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "12", "postcode": "051961", "county": "București", "place_name": "București, Sector 1"}
 input: 142-148 CALEA VICTORIEI, APARTAMENT 30,  BUCURESTI
-output: {"street": "CALEA VICTORIEI", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "12", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "CALEA VICTORIEI", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "12", "postcode": "", "county": "București", "place_name": "București"}
 input: PRIETENIEI NR 18, 14,  TÂRGU MUREŞ
-output: {"street": "PRIETENIEI", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "commune": "", "village": "", "city": "Târgu Mureș"}
+output: {"street": "PRIETENIEI", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "place_name": "Târgu Mureș"}
 input: STR ZAMBILELOR, 106300 URLATI (PRAHOVA)
-output: {"street": "STR ZAMBILELOR", "house": "106300", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "commune": "", "village": "", "city": "Urlati"}
+output: {"street": "STR ZAMBILELOR", "house": "106300", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "place_name": "Urlati"}
 input: STRADA RADU MIHNEA VODA NR 3, 107402 GAGENI
-output: {"street": "Radu Mihnea Voda", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107402", "county": "Buzău", "commune": "", "village": "", "city": "Gageni"}
+output: {"street": "Radu Mihnea Voda", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107402", "county": "Buzău", "place_name": "Gageni"}
 input: DRUMUL FERMEI, 87C, POPESTI LEORDENI
-output: {"street": "Drumul Fermei", "house": "87C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "", "village": "", "city": "Popesti Leordeni"}
+output: {"street": "Drumul Fermei", "house": "87C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "place_name": "Popesti Leordeni"}
 input: STRADA ŞARADEI 45, ETAJ 2, , INTERFON DAMIAN 5, BUCURESTI
-output: {"street": "Strada Şaradei", "house": "45", "flat": "", "block": "", "staircase": "", "floor": "2", "apartment": "", "landmark": "", "intercom": "5", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Strada Şaradei", "house": "45", "flat": "", "block": "", "staircase": "", "floor": "2", "apartment": "", "landmark": "", "intercom": "5", "postcode": "", "county": "București", "place_name": "București"}
 input: MĂRĂȘTI NR.30, DEVA
-output: {"street": "Mărăști", "house": "30", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "commune": "", "village": "", "city": "Deva"}
+output: {"street": "Mărăști", "house": "30", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "place_name": "Deva"}
 input: MIORITEI 78, BACAU
-output: {"street": "Mioritei", "house": "78", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău"}
+output: {"street": "Mioritei", "house": "78", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău"}
 input: STR RADULUI NR 2 BL 8A SC 2, AP 38, 041395 BUCURESTI
-output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "041395", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "041395", "county": "București", "place_name": "București"}
 input: STR RADULUI NR 2 BL 8A SC 2, AP 38, BUCURESTI
-output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
 input: BANATULUI, CHITILA
-output: {"street": "Banatului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "", "village": "", "city": "Chitila"}
+output: {"street": "Banatului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "place_name": "Chitila"}
 input:BULEVARDUL TIMIŞOARA NR.21 SECTOR 6, BUCURESTI
-output: {"street": "Bulevardul Timişoara", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București, Sector 6"}
+output: {"street": "Bulevardul Timişoara", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București, Sector 6"}
 input: COM BUCOV SAT CHITORANI STR I C BRATIANU NR 21, PLOIEŞTI
-output: {"street": "I C Bratianu", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Bucov", "village": "Chitorani", "city": "Ploiești"}
-input: STRADA OȚELARILOR, NR 41, BLOC D2, AP 15, 800620 GALATI
-output: {"street":  "Oțelarilor", "house": "41", "flat": "15", "block": "D2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "800620", "county": "Galați", "commune": "", "village": "", "city": "Galați"}
+output: {"street": "I C Bratianu", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Bucov", "village": "Chitorani", "place_name": "Ploiești"}
+input: STRADA OȚELARILOR, NR 41, BLOC D2, APT 15, 800620 GALATI
+output: {"street":  "Oțelarilor", "house": "41", "flat": "15", "block": "D2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "800620", "county": "Galați", "place_name": "Galați"}
 input: TRAIAN,PLOIESTI 84, 100005 PLOIEȘTI
-output: {"street": "Traian", "house": "84", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "100005", "county": "Ploiești", "commune": "", "village": "", "city": "Ploiești"}
+output: {"street": "Traian", "house": "84", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "100005", "county": "Ploiești", "place_name": "Ploiești"}
 input: METALURGIEI 85C/1, B, 115, 041832 BUCURESTI
-output:  {"street": "Metalurgiei", "house": "85C", "flat": "1", "block": "B", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "București", "commune": "", "village": "", "city": "București"}
+output:  {"street": "Metalurgiei", "house": "85C", "flat": "1", "block": "B", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "București", "place_name": "București"}
 input: METALURGIEI 85/115, 041832 BUCURESTI
-output:  {"street": "Metalurgiei", "house": "85", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "commune": "", "village": "", "city": "Bucuresti"}
+output:  {"street": "Metalurgiei", "house": "85", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "place_name": "Bucuresti"}
 input: METALURGIEI 75/115, 041832 BUCURESTI
-output: {"street": "Metalurgiei", "house": "75", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "commune": "", "village": "", "city": "Bucuresti"}
-input: STRADA 9 MAI, , AP 1, PARTER 3, BACAU
-output: {"street": "9 Mai", "house": "", "flat": "3", "block": "", "staircase": "", "floor": "Parter", "apartment": "1", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău"}
+output: {"street": "Metalurgiei", "house": "75", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "place_name": "Bucuresti"}
+input: STRADA 9 MAI, , APARTMENT 1, PARTER 3, BACAU
+output: {"street": "9 Mai", "house": "", "flat": "3", "block": "", "staircase": "", "floor": "Parter", "apartment": "1", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău"}
 input: LIBERTATII, NR 15, CHITILA
-output: {"street": "Libertatii", "house": "15", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "", "commune": "", "village": "", "city": "Chitila"}
+output: {"street": "Libertatii", "house": "15", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "", "place_name": "Chitila"}
 input: PENES CURCANUL 14, SCARA B, ETAJ 3, AP 19, 031515 SECTOR 3
-output: {"street": "Penes Curcanul", "house": "14", "flat": "19", "block": "", "staircase": "B", "floor": "3", "apartment": "", "landmark": "", "intercom": "", "postcode": "031515", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Penes Curcanul", "house": "14", "flat": "19", "block": "", "staircase": "B", "floor": "3", "apartment": "", "landmark": "", "intercom": "", "postcode": "031515", "county": "București", "place_name": "București, Sector 3"}
 input: STRADA PRINCIPALA , 179, SLĂTINIŢA
-output: {"street": "Principala", "house": "179", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bistrița-Năsăud", "commune": "", "village": "", "city": "Slătinița"}
+output: {"street": "Principala", "house": "179", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bistrița-Năsăud", "place_name": "Slătinița"}
 input: STRADA BUCURESTI BL 441 SC A AP 3, VASLUI
-output: {"street": "Bucuresti", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "Bucuresti", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: STR LACRAMIOARELOR NR 20, GIURGIU
-output: {"street": "Lacramioarelor", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Giurgiu", "commune": "", "village": "", "city": "Giurgiu"}
+output: {"street": "Lacramioarelor", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Giurgiu", "place_name": "Giurgiu"}
 input: STR BUCURESTI BL 441 SC A AP 3, VASLUI
-output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: STEJARULUI, 405300 GHERLA
-output: {"street": "Stejarului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "405300", "county": "Cluj", "commune": "", "village": "", "city": "Gherla"}
+output: {"street": "Stejarului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "405300", "county": "Cluj", "place_name": "Gherla"}
 input: VLAHUTA ALEXANDRU (STRADA), 331067 HUNEDOARA
-output: {"street": "Vlahuta Alexandru", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "331067", "county": "Hunedoara", "commune": "", "village": "", "city": "Hunedoara"}
+output: {"street": "Vlahuta Alexandru", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "331067", "county": "Hunedoara", "place_name": "Hunedoara"}
 input: AVIATOR JIPA IONESCU NR.69, URZICENI
-output: {"street": "Aviator Jipa Ionescu", "house": "69", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ialomița", "commune": "", "village": "", "city": "Urziceni"}
+output: {"street": "Aviator Jipa Ionescu", "house": "69", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ialomița", "place_name": "Urziceni"}
 input: ZIDURI ÎNTRE VII, 011357 BUCURESTI
-output: {"street": "Ziduri Între Vii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "011357", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Ziduri Între Vii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "011357", "county": "București", "place_name": "București"}
 input: CALEA FERENTARI 72 BLOC C7 SCARA 3, 016384 SECTOR 5
-output: {"street": "Calea Ferentari", "house": "72", "flat": "", "block": "C7", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "016384", "county": "București", "commune": "", "village": "", "city": "București, Sector 5"}
+output: {"street": "Calea Ferentari", "house": "72", "flat": "", "block": "C7", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "016384", "county": "București", "place_name": "București, Sector 5"}
 input: TEILOR 225/-, 307135 CURTEA
-output: {"street": "Teilor", "house": "225", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "307135", "county": "Brașov", "commune": "", "village": "", "city": "Curtea"}
+output: {"street": "Teilor", "house": "225", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "307135", "county": "Brașov", "place_name": "Curtea"}
 input: ALEXANDRU IOAN CUZA, 117710 ȘTEFAN CEL MARE
-output: {"street": "Alexandru Ioan Cuza", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "117710", "county": "Neamț", "commune": "Ștefan cel Mare", "village": "Ștefan cel Mare", "city": ""}
+output: {"street": "Alexandru Ioan Cuza", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "117710", "county": "Neamț", "commune": "Ștefan cel Mare", "village": "Ștefan cel Mare", "place_name": ""}
 input: [EASYBOX PIATA VASILE AARON] STR. SEMAFORULUI, 7, SIBIU
-output: {"street": "Semaforului", "house": "7", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Piata Vasile Aaron", "intercom": "", "postcode": "", "county": "Sibiu", "commune": "", "village": "", "city": "Sibiu"}
+output: {"street": "Semaforului", "house": "7", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Piata Vasile Aaron", "intercom": "", "postcode": "", "county": "Sibiu", "place_name": "Sibiu"}
 input: STR STADIONULUI 4F SC 2, FLOREŞTI
-output: {"street": "Stadionului", "house": "4F", "flat": "", "block": "", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Cluj", "commune": "Florești", "village": "Florești", "city": ""}
+output: {"street": "Stadionului", "house": "4F", "flat": "", "block": "", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Cluj", "commune": "Florești", "village": "Florești", "place_name": ""}
 input: ALEXANDRU CEL BUN, 200502 CRAIOVA
-output: {"street": "Alexandru Cel Bun", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200502", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output: {"street": "Alexandru Cel Bun", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200502", "county": "Dolj", "place_name": "Craiova"}
 input: ROTUNDA NR.4, 032703 SECTOR 3
-output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "032703", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "032703", "county": "București", "place_name": "București, Sector 3"}
 input: STR. ROTUNDA, EASYBOX GREEN PARCARE ROTUNDA 4, 032701 SECTORUL 3
-output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Green Parcare Rotunda", "intercom": "", "postcode": "032701", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Green Parcare Rotunda", "intercom": "", "postcode": "032701", "county": "București", "place_name": "București, Sector 3"}
 input: AVERESCU ALEXANDRU, MARESAL (STRADA), 200064 CRAIOVA
-output: {"street": "Averescu Alexandru Maresal", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200064", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output: {"street": "Averescu Alexandru Maresal", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200064", "county": "Dolj", "place_name": "Craiova"}
 input:BARITIU GEORGE (STRADA), 510046 ALBA IULIA
-output:{"street": "Baritiu George", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "510046", "county": "Alba", "commune": "", "village": "", "city": "Alba Iulia"}
+output:{"street": "Baritiu George", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "510046", "county": "Alba", "place_name": "Alba Iulia"}
 input: VOIEVODULUI SAT VOIEVODEASA COM SUCEVIȚA, 725400 RĂDĂUȚI
-output:{"street": "Voievodului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "725400", "county": "Suceava", "commune": "Suceviţa", "village": "Voievodeasa", "city": "Rădăuți"}
+output:{"street": "Voievodului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "725400", "county": "Suceava", "commune": "Suceviţa", "village": "Voievodeasa", "place_name": "Rădăuți"}
 input:CHISINAU 16/-, 077068 TAMASI
-output: {"street": "Chisinau", "house": "16", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077068", "county": "Tolna", "commune": "", "village": "", "city": "Tamasi"}
+output: {"street": "Chisinau", "house": "16", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077068", "county": "Tolna", "place_name": "Tamasi"}
 input:STRADA TUDOR VLADIMIRESCU NR 155, MEDIAS
-output: {"street": "Tudor Vladimirescu", "house": "155", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "commune": "", "village": "", "city": "Mediaș"}
+output: {"street": "Tudor Vladimirescu", "house": "155", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "place_name": "Mediaș"}
 input: TERMOCENTRALEI (STRADA), 210233 TARGU JIU
-output: {"street": "Termocentralei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "210233", "county": "Gorj", "commune": "", "village": "", "city": "Târgu Jiu"}
+output: {"street": "Termocentralei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "210233", "county": "Gorj", "place_name": "Târgu Jiu"}
 input: STRADA IALOMIŢA NR 44, CRAIOVA
-output: {"street": "Ialomita", "house": "44", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output: {"street": "Ialomita", "house": "44", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Dolj", "place_name": "Craiova"}
 input:ȘOSEAUA OLTENITEI, 077160 POPESTI LEORDENI
-output:{"street": "Șoseaua Oltenitei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077160", "county": "Ilfov", "commune": "", "village": "", "city": "Popești-Leordeni"}
+output:{"street": "Șoseaua Oltenitei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077160", "county": "Ilfov", "place_name": "Popești-Leordeni"}
 input:CALEA NAŢIONALĂ, BOTOSANI
-output:{"street": "Calea Națională", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}
+output:{"street": "Calea Națională", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "place_name": "Botoșani"}
 input:TINERETULUI, 720001 SUCEAVA
-output:{"street": "Tineretului", "house": "720001", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "720001", "county": "Suceava", "commune": "", "village": "", "city": "Suceava"}
+output:{"street": "Tineretului", "house": "720001", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "720001", "county": "Suceava", "place_name": "Suceava"}
 input:INTRAREA APELOR NR BL 5 NR BL 2, 620130 TIMISOARA
-output:{"street": "Intrarea Apelor", "house": "5", "flat": "", "block": "2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "620130", "county": "Timiș", "commune": "", "village": "", "city": "Timișoara"} 
+output:{"street": "Intrarea Apelor", "house": "5", "flat": "", "block": "2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "620130", "county": "Timiș", "place_name": "Timișoara"} 
 input: TITUSANDRONIC NR 20, MEDIAS
-output:{"street": "Titus Andronic", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "commune": "", "village": "", "city": "Mediaș"}
+output:{"street": "Titus Andronic", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "place_name": "Mediaș"}
 input:NR 50, STREHAIA
-output:{"street": "", "house": "50", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mehedinți", "commune": "", "village": "", "city": "Strehaia"}
+output:{"street": "", "house": "50", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mehedinți", "place_name": "Strehaia"}
 input: STR.PROF. DR IOAN MOGA, NR.10, AP.18, 5, SIBIU
-output:{"street": "Str. Prof. Dr. Ioan Moga", "house": "10", "flat": "5", "block": "", "staircase": "", "floor": "", "apartment": "18", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "commune": "", "village": "", "city": "Sibiu"}
+output:{"street": "Str. Prof. Dr. Ioan Moga", "house": "10", "flat": "5", "block": "", "staircase": "", "floor": "", "apartment": "18", "landmark": "", "intercom": "", "postcode": "", "county": "Sibiu", "place_name": "Sibiu"}
 input:STRADA SALCAMILOR BLOC 5 SCCARA 3, DUDU
-output:{"street": "Strada Salcamilor", "house": "", "flat": "", "block": "5", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "city": ""}
+output:{"street": "Strada Salcamilor", "house": "", "flat": "", "block": "5", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "place_name": ""}
 input:STR JEAN STERIADI 29,BL V2, SC A, 489AP, BUCURESTI
-output:{"street": "Jean Steriadi", "house": "29", "flat": "", "block": "V2", "staircase": "A", "floor": "", "apartment": "489", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output:{"street": "Jean Steriadi", "house": "29", "flat": "", "block": "V2", "staircase": "A", "floor": "", "apartment": "489", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
 input: STRADA ANDREI MUREȘANU 28 10, 415600 STEI
-output:{"street": "Strada Andrei Mureșanu", "house": "28", "flat": "10", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "415600", "county": "Bihor", "commune": "", "village": "", "city": "Ștei"}
+output:{"street": "Strada Andrei Mureșanu", "house": "28", "flat": "10", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "415600", "county": "Bihor", "place_name": "Ștei"}
 input: TITUS ANDRONIC (STRADA), 551098 MEDIAS
-output:{"street": "Titus Andronic", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "551098", "county": "Sibiu", "commune": "", "village": "", "city": "Mediaș"}
+output:{"street": "Titus Andronic", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "551098", "county": "Sibiu", "place_name": "Mediaș"}
 input: STRADA LĂMÂIȚEI NR 25PANTELIMON, 077145 ILFOV
-output:{"street": "Strada Lămâiței", "house": "25", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077145", "county": "Ilfov", "commune": "", "village": "", "city": "Pantelimon"} 
+output:{"street": "Strada Lămâiței", "house": "25", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "077145", "county": "Ilfov", "place_name": "Pantelimon"} 
 input: SESUL DE SUS 127R, 407280 FLORESTI
-output:{"street": "Sesul de Sus", "house": "127R", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "407280", "county": "Cluj", "commune": "Floresti", "village": "Floresti", "city": ""}
+output:{"street": "Sesul de Sus", "house": "127R", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "407280", "county": "Cluj", "commune": "Floresti", "village": "Floresti", "place_name": ""}
 input: ALEEA CALUSARILOR, NR 3 VILA TONIS, AP., ETAJ 1, 900001 CONSTANTA
-output:{"street": "Aleea Calusarilor", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "1", "apartment": "", "landmark": "Vila Tonis", "intercom": "", "postcode": "900001", "county": "Constanta", "commune": "", "village": "", "city": "Constanta"}
+output:{"street": "Aleea Calusarilor", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "1", "apartment": "", "landmark": "Vila Tonis", "intercom": "", "postcode": "900001", "county": "Constanta", "place_name": "Constanta"}
 input: BULEVARDUL GĂRII,NR 26, FOCȘANI
-output:{"street": "Bulevardul Gării", "house": "26", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Vrancea", "commune": "", "village": "", "city": "Focșani"}
+output:{"street": "Bulevardul Gării", "house": "26", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Vrancea", "place_name": "Focșani"}
 input: DRM. GURA PUTNEI, , ETAJ 3, AP, 79 8-14, BUCURESTI, SECTOR 3
-output:{"street": "Drm. Gura Putnei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "3", "apartment": "79 8-14", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output:{"street": "Drm. Gura Putnei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "3", "apartment": "79 8-14", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București, Sector 3"}
 input: BLD I C BRATIANU 27A/27, 110003 PITESTI
-output:{"street": "Bld I C Bratianu", "house": "27A", "flat": "27", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "commune": "", "village": "", "city": "Pitești"}
+output:{"street": "Bld I C Bratianu", "house": "27A", "flat": "27", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "place_name": "Pitești"}
 input: BLD 1 DECEMBRIE 1918,BLOC 2C ,AP 19, ETAJ 4, BUZAU
-output:{"street": "1 Decembrie 1918", "house": "", "flat": "", "block": "2C", "staircase": "", "floor": "4", "apartment": "19", "landmark": "", "intercom": "", "postcode": "", "county": "Buzău", "commune": "", "village": "", "city": "Buzău"}
+output:{"street": "1 Decembrie 1918", "house": "", "flat": "", "block": "2C", "staircase": "", "floor": "4", "apartment": "19", "landmark": "", "intercom": "", "postcode": "", "county": "Buzău", "place_name": "Buzău"}
 input: CODLEA (STRADA), 200312 CRAIOVA
-output:{"street": "Strada Codlea", "house": "200312", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200312", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output:{"street": "Strada Codlea", "house": "200312", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200312", "county": "Dolj", "place_name": "Craiova"}
 input: PRINCIPALA 260, 087117 ZORILE
-output:{"street": "Principala", "house": "260", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087117", "county": "Bacău", "commune": "Zorile", "village": "", "city": "Bacău"}
+output:{"street": "Principala", "house": "260", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087117", "county": "Bacău", "commune": "Zorile", "village": "", "place_name": "Bacău"}
 input: DEALUL ROZELOR, 407581 DEJ
-output:{"street": "Dealul Rozelor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "407581", "county": "Cluj", "commune": "", "village": "", "city": "Dej"}
+output:{"street": "Dealul Rozelor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "407581", "county": "Cluj", "place_name": "Dej"}
 input: LILIACULUI, 087030 BULB
-output:{"street": "Liliacului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087030", "county": "", "commune": "", "village": "", "city": ""}
+output:{"street": "Liliacului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087030", "county": "", "place_name": ""}
 input: SAT BARBURA COMUNA BAITA NR 92, BARBURA
-output:{"street": "", "house": "92", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "commune": "Băița", "village": "Barbura", "city": ""}
+output:{"street": "", "house": "92", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "commune": "Băița", "village": "Barbura", "place_name": ""}
 input: PRINCIPALA NR 431, AMARASTII DE SUS
-output:{"street": "Principala", "house": "431", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Dolj", "commune": "Amarastii de Sus", "village": "Amărăștii de Sus", "city": ""}
+output:{"street": "Principala", "house": "431", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Dolj", "commune": "Amarastii de Sus", "village": "Amărăștii de Sus", "place_name": ""}
 input: PROF CRISTEA DUMITRU NR 50, BELCIUGATELE
-output:{"street": "Prof Cristea Dumitru", "house": "50", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Călărași", "commune": "Belciugatele", "village": "Belciugatele", "city": ""}
+output:{"street": "Prof Cristea Dumitru", "house": "50", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Călărași", "commune": "Belciugatele", "village": "Belciugatele", "place_name": ""}
 input:LILIACULUI 1, 087030 BULBUCATA
-output:{"street": "Liliacului", "house": "1", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087030", "county": "Giurgiu", "commune": "Bulbucata", "village": "Bulbucata", "city": ""}
+output:{"street": "Liliacului", "house": "1", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "087030", "county": "Giurgiu", "commune": "Bulbucata", "village": "Bulbucata", "place_name": ""}
 input:CALEA VITAN, NR 6-6A, SECTOR 3
-output:{"street": "Calea Vitan", "house": "6-6A", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output:{"street": "Calea Vitan", "house": "6-6A", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
 input:STRADA GRUI, BLOC 7, SCARA A, APARTAMENT 6, ZĂRNEŞTI
-output:{"street": "Strada Gruia", "house": "", "flat": "6", "block": "7", "staircase": "A", "floor": "", "apartment": "6", "landmark": "", "intercom": "", "postcode": "", "county": "Brașov", "commune": "", "village": "", "city": "Zărnești"}
+output:{"street": "Strada Gruia", "house": "", "flat": "6", "block": "7", "staircase": "A", "floor": "", "apartment": "6", "landmark": "", "intercom": "", "postcode": "", "county": "Brașov", "place_name": "Zărnești"}
 input:BUCEGI 117 SC C AP 33, 600331 BACAU
-output:{"street": "Bucegi", "house": "117", "flat": "", "block": "SC C", "staircase": "", "floor": "", "apartment": "33", "landmark": "", "intercom": "", "postcode": "600331", "county": "Bacău", "commune": "", "village": "", "city": "Bacău"}
+output:{"street": "Bucegi", "house": "117", "flat": "", "block": "SC C", "staircase": "", "floor": "", "apartment": "33", "landmark": "", "intercom": "", "postcode": "600331", "county": "Bacău", "place_name": "Bacău"}
 input:STRADA SALCAMILOR BOLC 5 SCARA 3 APARTAMENT 12, DUDU ILFOV
-output:{"street": "Strada Salcamilor", "house": "", "flat": "12", "block": "5", "staircase": "3", "floor": "", "apartment": "12", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "city": ""}
+output:{"street": "Strada Salcamilor", "house": "", "flat": "12", "block": "5", "staircase": "3", "floor": "", "apartment": "12", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "place_name": ""}
 input:STRADA SALCÂMILOR BLOC 5 SCARA 3 APARTAMENT 1 ETAJ 2, DUDU
-output:{"street": "Strada Salcâmilor", "house": "5", "flat": "1", "block": "", "staircase": "3", "floor": "2", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "city": ""}
+output:{"street": "Strada Salcâmilor", "house": "5", "flat": "1", "block": "", "staircase": "3", "floor": "2", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "Chiajna", "village": "Dudu", "place_name": ""}
 input:LAZAR ION NR 14, PRĂJEŞTI (MĂGIREŞTI)
-output:{"street": "Lazar Ion", "house": "14", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "Măgirești", "village": "Prăjești", "city": ""}
+output:{"street": "Lazar Ion", "house": "14", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "Măgirești", "village": "Prăjești", "place_name": ""}
 input: COMUNA STANESTI SAT CALESTI, 210101 TARGU JIU
-output:{"street": "", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "210101", "county": "Gorj", "commune": "Stanesti", "village": "Calesti", "city": "Targu Jiu"}
+output:{"street": "", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "210101", "county": "Gorj", "commune": "Stanesti", "village": "Calesti", "place_name": "Targu Jiu"}
 input: CALEA TRANSILVANIEI, 725700 VATRA DORNEI
-output:{"street": "Calea Transilvaniei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "725700", "county": "Suceava", "commune": "", "village": "", "city": "Vatra Dornei"}
+output:{"street": "Calea Transilvaniei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "725700", "county": "Suceava", "place_name": "Vatra Dornei"}
 input: STR. NICOLAE TITULESCU, 39, HAȚEG
-output:{"street": "Str. Nicolae Titulescu", "house": "39", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "commune": "", "village": "", "city": "Hațeg"}
+output:{"street": "Str. Nicolae Titulescu", "house": "39", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "place_name": "Hațeg"}
 input:TRAIAN NR 5, 5,19, SIGHETU MARMATIEI
-output:{"street": "Traian", "house": "5", "flat": "19", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Maramureș", "commune": "", "village": "", "city": "Sighetu Marmației"}
+output:{"street": "Traian", "house": "5", "flat": "19", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Maramureș", "place_name": "Sighetu Marmației"}
 input:TUDOR VLADIMIRESCU NR.225 BL.3 SC.4 AP.10, DROBETA TURNU SEVERIN
-output:{"street": "Tudor Vladimirescu", "house": "225", "flat": "", "block": "3", "staircase": "4", "floor": "", "apartment": "10", "landmark": "", "intercom": "", "postcode": "", "county": "Mehedinți", "commune": "", "village": "", "city": "Drobeta-Turnu Severin"}
+output:{"street": "Tudor Vladimirescu", "house": "225", "flat": "", "block": "3", "staircase": "4", "floor": "", "apartment": "10", "landmark": "", "intercom": "", "postcode": "", "county": "Mehedinți", "place_name": "Drobeta-Turnu Severin"}
 input:LOCOTENENT PETRE MUȘUROI, IZBICENI
-output:{"street": "Locotenent Petre Mușuroi", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Olt", "commune": "Izbiceni", "village": "Izbiceni", "city": ""}
+output:{"street": "Locotenent Petre Mușuroi", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Olt", "commune": "Izbiceni", "village": "Izbiceni", "place_name": ""}
 input:COMUNA TRIFESTI SAT TRIFESTI, 707520 TRIFESTI
-output:{"street": "", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "707520", "county": "Iasi", "commune": "Trifesti", "village": "Trifesti", "city": ""}
+output:{"street": "", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "707520", "county": "Iasi", "commune": "Trifesti", "village": "Trifesti", "place_name": ""}
 input:COMUNA CORBII MARI JUS DB, 137135 CORBII MARI
-output:{"street": "Comuna Corbii Mari Jus Db", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "137135", "county": "Dâmbovița", "commune": "Corbii Mari", "village": "Corbii Mari", "city": ""}
+output:{"street": "Comuna Corbii Mari Jus Db", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "137135", "county": "Dâmbovița", "commune": "Corbii Mari", "village": "Corbii Mari", "place_name": ""}
 input:SAT ȘIRNA COM ȘIRNA NR 74 STRADA PRINCIPALA, 107550 SIRNA
-output:{"street": "Strada Principala", "house": "74", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107550", "county": "Prahova", "commune": "Șirna", "village": "Șirna", "city": ""}
+output:{"street": "Strada Principala", "house": "74", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107550", "county": "Prahova", "commune": "Șirna", "village": "Șirna", "place_name": ""}
 input:VALEA UNCHIASULUI NR 89C, CÂMPULUNG
-output:{"street": "Valea Unchiasului", "house": "89C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Argeș", "commune": "Câmpulung", "village": "", "city": "Câmpulung"}
+output:{"street": "Valea Unchiasului", "house": "89C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Argeș", "commune": "Câmpulung", "village": "", "place_name": "Câmpulung"}
 intput:CONSTRUCTORILOR, TULCEA
-output:{"street": "Constructorilor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Tulcea", "commune": "", "village": "", "city": "Tulcea"}
+output:{"street": "Constructorilor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Tulcea", "place_name": "Tulcea"}
 input:STR CRIVATULUI NR 1 STR CRIVATUL/NR 1, 610004 PIATRA NEAMT
-output:{"street": "Crivatului", "house": "1", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "610004", "county": "Neamț", "commune": "", "village": "", "city": "Piatra Neamț"}
+output:{"street": "Crivatului", "house": "1", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "610004", "county": "Neamț", "place_name": "Piatra Neamț"}
 input:SITEI, 507085 BRASOV
-output:{"street": "Sitei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city": "Brașov"}
+output:{"street": "Sitei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "place_name": "Brașov"}
 input:STR.PRINCIPALA NR.1057, MAGURENI
-output:{"street": "Str. Princiala", "house": "1057", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Măgureni", "village": "Măgureni", "city": ""}
+output:{"street": "Str. Princiala", "house": "1057", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Măgureni", "village": "Măgureni", "place_name": ""}
 input:STRADA ULMULUI , NR.13 ,BL.13 ,SC.1 , ,AP 122, FOCSANI
-output:{"street": "Strada Ulmului", "house": "13", "flat": "", "block": "13", "staircase": "1", "floor": "", "apartment": "122", "landmark": "", "intercom": "", "postcode": "", "county": "Vrancea", "commune": "", "village": "", "city": "Focșani"}
+output:{"street": "Strada Ulmului", "house": "13", "flat": "", "block": "13", "staircase": "1", "floor": "", "apartment": "122", "landmark": "", "intercom": "", "postcode": "", "county": "Vrancea", "place_name": "Focșani"}
 input:EPISCOPIEI (STRADA), 920023 SLOBOZIA
-output:{"street": "Episcopiei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "920023", "county": "Ialomița", "commune": "", "village": "", "city": "Slobozia"}
+output:{"street": "Episcopiei", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "920023", "county": "Ialomița", "place_name": "Slobozia"}
 input:CRAIOVA DOLJ STRADA 22 DECEMBRIE 1989, 200019 CRAIOVA
-output:{"street": "Strada 22 Decembrie 1989", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200019", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output:{"street": "Strada 22 Decembrie 1989", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200019", "county": "Dolj", "place_name": "Craiova"}
 input:BL 20 SC B STR CAMPULUI, 3, 505200 FĂGĂRAȘ
-output:{"street": "Strada Campului", "house": "3", "flat": "", "block": "20", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "505200", "county": "Brașov", "commune": "", "village": "", "city": "Făgăraș"}
+output:{"street": "Strada Campului", "house": "3", "flat": "", "block": "20", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "505200", "county": "Brașov", "place_name": "Făgăraș"}
 input:D NA STANCA NR 14, 505200 FĂGĂRAȘ
-output:{"street": "D Na Stanca", "house": "14", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "505200", "county": "Brașov", "commune": "", "village": "", "city": "Făgăraș"}
+output:{"street": "D Na Stanca", "house": "14", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "505200", "county": "Brașov", "place_name": "Făgăraș"}
 input:MANASTIRII, 137180 CREVEDIA
-output:{"street": "Manastirii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "137180", "county": "Dâmbovița", "commune": "Crevedia", "village": "Crevedia", "city": ""}
+output:{"street": "Manastirii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "137180", "county": "Dâmbovița", "commune": "Crevedia", "village": "Crevedia", "place_name": ""}
 input:STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output:{"street": "Srg Erou Nicolae Marius", "house": "", "flat": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "", "city": "Pucioasa"}
+output:{"street": "Srg Erou Nicolae Marius", "house": "", "flat": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "place_name": "Pucioasa"}
 input: CONSTRUCTORILOR 3, TULCEA
-output:{"street": "Constructorilor", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Tulcea", "commune": "", "village": "", "city": "Tulcea"}
+output:{"street": "Constructorilor", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Tulcea", "place_name": "Tulcea"}
 input:STRADA EREMIA GRIGORESCU, NR.11 BL.45B,SC.B NR 11/38, 107065 PLOIESTI
-output:{"street": "Strada Eremia Grigorescu", "house": "11", "flat": "38", "block": "45B", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107065", "county": "Prahova", "commune": "", "village": "", "city": "Ploiești"}
+output:{"street": "Strada Eremia Grigorescu", "house": "11", "flat": "38", "block": "45B", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107065", "county": "Prahova", "place_name": "Ploiești"}
 input:STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output:{"street": "Srg Erou Nicolae Marius", "house": "", "flat": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "", "city": "Pucioasa"} 
+output:{"street": "Srg Erou Nicolae Marius", "house": "", "flat": "", "block": "D1", "staircase": "", "floor": "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "place_name": "Pucioasa"} 
 input: ORAVIȚA, STR ZONA GARII, BL B32, SC B, AP.9,  ORAVITA
-output: {"street": "Zona Garii", "house": "", "flat": "9", "block": "B32", "staircase": "B", "floor": "", "apartment": "9", "postcode": "", "county": "Caraș-Severin", "city": "Oravița"}
+output: {"street": "Zona Garii", "house": "", "flat": "9", "block": "B32", "staircase": "B", "floor": "", "apartment": "9", "postcode": "", "county": "Caraș-Severin", "place_name": "Oravița"}
 input: STRADA EREMIA GRIGORESCU, NR.11 BL.45B,SC.B NR 11/38, 107065 PLOIESTI
-output: {"street": "Eremia Grigorescu", "house_number": "11", "flat_number": "38", "block": "45B", "staircase": "45B", floor: "", "apartment": "", "landmark": "", "postcode": "107065", "county": "Prahova", "commune": "", "village": "", "city" "Ploiesti"}
+output: {"street": "Eremia Grigorescu", "house_number": "11", "flat_number": "38", "block": "45B", "staircase": "45B", floor: "", "apartment": "", "landmark": "", "postcode": "107065", "county": "Prahova", "place_name" "Ploiesti"}
 input: STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8", "landmark": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "", "city" "Pucioasa"}
+output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8", "landmark": "", "postcode": "", "county": "Dâmbovița", "place_name" "Pucioasa"}
 input: SITEI, 507085 BRASOV
-output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city" "Brașov"}
+output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "place_name" "Brașov"}
 input: BLD I C BRATIANU 27A/27, 110003 PITESTI
-output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "commune": "", "village": "", "city" "Pitesti"}
+output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "place_name" "Pitesti"}
 input: STRADA PRIMĂVERII NR 32 SC B,  BOTOSANI
-output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": ", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}
+output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": ", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "place_name": "Botoșani"}
 input: STR BUCUREȘTI BL 441 SC A AP 3,  VASLUI
-output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: SLT POPA NR.3 BL 15 A SC 1 AP12 INTERFON 12 SECTOR1 3/15A, 051961 BUCUREȘTI
-output: {"street": "SLT POPA", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "12", "postcode": "051961", "county": "București", "commune": "", "village": "", "city": "București, Sector 1"}
+output: {"street": "SLT POPA", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "12", "postcode": "051961", "county": "București", "place_name": "București, Sector 1"}
 input: 142-148 CALEA VICTORIEI, APARTAMENT 30,  BUCURESTI
-output: {"street": "CALEA VICTORIEI", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "12", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "CALEA VICTORIEI", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "12", "postcode": "", "county": "București", "place_name": "București"}
 input: PRIETENIEI NR 18, 14,  TÂRGU MUREŞ
-output: {"street": "PRIETENIEI", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "commune": "", "village": "", "city": "Târgu Mureș"}
+output: {"street": "PRIETENIEI", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "place_name": "Târgu Mureș"}
 input: STR ZAMBILELOR, 106300 URLATI (PRAHOVA)
-output: {"street": "STR ZAMBILELOR", "house": "106300", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "commune": "", "village": "", "city": "Urlati"}
+output: {"street": "STR ZAMBILELOR", "house": "106300", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "place_name": "Urlati"}
 input: STRADA RADU MIHNEA VODA NR 3, 107402 GAGENI
-output: {"street": "Radu Mihnea Voda", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107402", "county": "Buzău", "commune": "", "village": "", "city": "Gageni"}
+output: {"street": "Radu Mihnea Voda", "house": "3", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107402", "county": "Buzău", "place_name": "Gageni"}
 input: DRUMUL FERMEI, 87C, POPESTI LEORDENI
-output: {"street": "Drumul Fermei", "house": "87C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "", "village": "", "city": "Popesti Leordeni"}
+output: {"street": "Drumul Fermei", "house": "87C", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "place_name": "Popesti Leordeni"}
 input: STRADA ŞARADEI 45, ETAJ 2, , INTERFON DAMIAN 5, BUCURESTI
-output: {"street": "Strada Şaradei", "house": "45", "flat": "", "block": "", "staircase": "", "floor": "2", "apartment": "", "landmark": "", "intercom": "5", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Strada Şaradei", "house": "45", "flat": "", "block": "", "staircase": "", "floor": "2", "apartment": "", "landmark": "", "intercom": "5", "postcode": "", "county": "București", "place_name": "București"}
 input: MĂRĂȘTI NR.30, DEVA
-output: {"street": "Mărăști", "house": "30", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "commune": "", "village": "", "city": "Deva"}
+output: {"street": "Mărăști", "house": "30", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Hunedoara", "place_name": "Deva"}
 input: MIORITEI 78, BACAU
-output: {"street": "Mioritei", "house": "78", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău"}
+output: {"street": "Mioritei", "house": "78", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău"}
 input: STR RADULUI NR 2 BL 8A SC 2, AP 38, 041395 BUCURESTI
-output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "041395", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "041395", "county": "București", "place_name": "București"}
 input: STR RADULUI NR 2 BL 8A SC 2, AP 38, BUCURESTI
-output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Radului", "house": "2", "flat": "38", "block": "8A", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
 input: BANATULUI, CHITILA
-output: {"street": "Banatului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "commune": "", "village": "", "city": "Chitila"}
+output: {"street": "Banatului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ilfov", "place_name": "Chitila"}
 input:BULEVARDUL TIMIŞOARA NR.21 SECTOR 6, BUCURESTI
-output: {"street": "Bulevardul Timişoara", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București, Sector 6"}
+output: {"street": "Bulevardul Timişoara", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București, Sector 6"}
 input: COM BUCOV SAT CHITORANI STR I C BRATIANU NR 21, PLOIEŞTI
-output: {"street": "I C Bratianu", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Bucov", "village": "Chitorani", "city": "Ploiești"}
+output: {"street": "I C Bratianu", "house": "21", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Prahova", "commune": "Bucov", "village": "Chitorani", "place_name": "Ploiești"}
 input: STRADA OȚELARILOR, NR 41, BLOC D2, AP 15, 800620 GALATI
-output: {"street":  "Oțelarilor", "house": "41", "flat": "15", "block": "D2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "800620", "county": "Galați", "commune": "", "village": "", "city": "Galați"}
+output: {"street":  "Oțelarilor", "house": "41", "flat": "15", "block": "D2", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "800620", "county": "Galați", "place_name": "Galați"}
 input: TRAIAN,PLOIESTI 84, 100005 PLOIEȘTI
-output: {"street": "Traian", "house": "84", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "100005", "county": "Ploiești", "commune": "", "village": "", "city": "Ploiești"}
+output: {"street": "Traian", "house": "84", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "100005", "county": "Ploiești", "place_name": "Ploiești"}
 input: METALURGIEI 85C/1, B, 115, 041832 BUCURESTI
-output:  {"street": "Metalurgiei", "house": "85C", "flat": "1", "block": "B", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "București", "commune": "", "village": "", "city": "București"}
+output:  {"street": "Metalurgiei", "house": "85C", "flat": "1", "block": "B", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "București", "place_name": "București"}
 input: METALURGIEI 85/115, 041832 BUCURESTI
-output:  {"street": "Metalurgiei", "house": "85", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "commune": "", "village": "", "city": "Bucuresti"}
+output:  {"street": "Metalurgiei", "house": "85", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "place_name": "Bucuresti"}
 input: METALURGIEI 75/115, 041832 BUCURESTI
-output: {"street": "Metalurgiei", "house": "75", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "commune": "", "village": "", "city": "Bucuresti"}
+output: {"street": "Metalurgiei", "house": "75", "flat": "115", "block": "", "staircase": "", "floor": "", "apartment": "115", "landmark": "", "intercom": "", "postcode": "041832", "county": "Bucuresti", "place_name": "Bucuresti"}
 input: STRADA 9 MAI, , AP 1, PARTER 3, BACAU
-output: {"street": "9 Mai", "house": "", "flat": "3", "block": "", "staircase": "", "floor": "Parter", "apartment": "1", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău"}
+output: {"street": "9 Mai", "house": "", "flat": "3", "block": "", "staircase": "", "floor": "Parter", "apartment": "1", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău"}
 input: LIBERTATII, NR 15, CHITILA
-output: {"street": "Libertatii", "house": "15", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "", "commune": "", "village": "", "city": "Chitila"}
+output: {"street": "Libertatii", "house": "15", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "", "place_name": "Chitila"}
 input: PENES CURCANUL 14, SCARA B, ETAJ 3, AP 19, 031515 SECTOR 3
-output: {"street": "Penes Curcanul", "house": "14", "flat": "19", "block": "", "staircase": "B", "floor": "3", "apartment": "", "landmark": "", "intercom": "", "postcode": "031515", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Penes Curcanul", "house": "14", "flat": "19", "block": "", "staircase": "B", "floor": "3", "apartment": "", "landmark": "", "intercom": "", "postcode": "031515", "county": "București", "place_name": "București, Sector 3"}
 input: STRADA PRINCIPALA , 179, SLĂTINIŢA
-output: {"street": "Principala", "house": "179", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bistrița-Năsăud", "commune": "", "village": "", "city": "Slătinița"}
+output: {"street": "Principala", "house": "179", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Bistrița-Năsăud", "place_name": "Slătinița"}
 input: STRADA BUCURESTI BL 441 SC A AP 3, VASLUI
-output: {"street": "Bucuresti", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "Bucuresti", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: STR LACRAMIOARELOR NR 20, GIURGIU
-output: {"street": "Lacramioarelor", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Giurgiu", "commune": "", "village": "", "city": "Giurgiu"}
+output: {"street": "Lacramioarelor", "house": "20", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Giurgiu", "place_name": "Giurgiu"}
 input: STR BUCURESTI BL 441 SC A AP 3, VASLUI
-output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: STEJARULUI, 405300 GHERLA
-output: {"street": "Stejarului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "405300", "county": "Cluj", "commune": "", "village": "", "city": "Gherla"}
+output: {"street": "Stejarului", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "405300", "county": "Cluj", "place_name": "Gherla"}
 input: VLAHUTA ALEXANDRU (STRADA), 331067 HUNEDOARA
-output: {"street": "Vlahuta Alexandru", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "331067", "county": "Hunedoara", "commune": "", "village": "", "city": "Hunedoara"}
+output: {"street": "Vlahuta Alexandru", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "331067", "county": "Hunedoara", "place_name": "Hunedoara"}
 input: AVIATOR JIPA IONESCU NR.69, URZICENI
-output: {"street": "Aviator Jipa Ionescu", "house": "69", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ialomița", "commune": "", "village": "", "city": "Urziceni"}
+output: {"street": "Aviator Jipa Ionescu", "house": "69", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Ialomița", "place_name": "Urziceni"}
 input: ZIDURI ÎNTRE VII, 011357 BUCURESTI
-output: {"street": "Ziduri Între Vii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "011357", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Ziduri Între Vii", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "011357", "county": "București", "place_name": "București"}
 input: CALEA FERENTARI 72 BLOC C7 SCARA 3, 016384 SECTOR 5
-output: {"street": "Calea Ferentari", "house": "72", "flat": "", "block": "C7", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "016384", "county": "București", "commune": "", "village": "", "city": "București, Sector 5"}
+output: {"street": "Calea Ferentari", "house": "72", "flat": "", "block": "C7", "staircase": "3", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "016384", "county": "București", "place_name": "București, Sector 5"}
 input: TEILOR 225/-, 307135 CURTEA
-output: {"street": "Teilor", "house": "225", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "307135", "county": "Brașov", "commune": "", "village": "", "city": "Curtea"}
+output: {"street": "Teilor", "house": "225", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "307135", "county": "Brașov", "place_name": "Curtea"}
 input: ALEXANDRU IOAN CUZA, 117710 ȘTEFAN CEL MARE
-output: {"street": "Alexandru Ioan Cuza", "house": "117710", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "117710", "county": "Neamț", "commune": "Ștefan cel Mare", "village": "Ștefan cel Mare", "city": ""}
+output: {"street": "Alexandru Ioan Cuza", "house": "117710", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "117710", "county": "Neamț", "commune": "Ștefan cel Mare", "village": "Ștefan cel Mare", "place_name": ""}
 input: [EASYBOX PIATA VASILE AARON] STR. SEMAFORULUI, 7, SIBIU
-output: {"street": "Semaforului", "house": "7", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Piata Vasile Aaron", "intercom": "", "postcode": "", "county": "Sibiu", "commune": "", "village": "", "city": "Sibiu"}
+output: {"street": "Semaforului", "house": "7", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Piata Vasile Aaron", "intercom": "", "postcode": "", "county": "Sibiu", "place_name": "Sibiu"}
 input: STR STADIONULUI 4F SC 2, FLOREŞTI
-output: {"street": "Stadionului", "house": "4F", "flat": "", "block": "", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Cluj", "commune": "Florești", "village": "Florești", "city": ""}
+output: {"street": "Stadionului", "house": "4F", "flat": "", "block": "", "staircase": "2", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Cluj", "commune": "Florești", "village": "Florești", "place_name": ""}
 input: ALEXANDRU CEL BUN, 200502 CRAIOVA
-output: {"street": "Alexandru Cel Bun", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200502", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output: {"street": "Alexandru Cel Bun", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200502", "county": "Dolj", "place_name": "Craiova"}
 input: ROTUNDA NR.4, 032703 SECTOR 3
-output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "032703", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "032703", "county": "București", "place_name": "București, Sector 3"}
 input: STR. ROTUNDA, EASYBOX GREEN PARCARE ROTUNDA 4, 032701 SECTORUL 3
-output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Green Parcare Rotunda", "intercom": "", "postcode": "032701", "county": "București", "commune": "", "village": "", "city": "București, Sector 3"}
+output: {"street": "Rotunda", "house": "4", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "Easybox Green Parcare Rotunda", "intercom": "", "postcode": "032701", "county": "București", "place_name": "București, Sector 3"}
 input: AVERESCU ALEXANDRU, MARESAL (STRADA), 200064 CRAIOVA
-output: {"street": "Averescu Alexandru Maresal", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200064", "county": "Dolj", "commune": "", "village": "", "city": "Craiova"}
+output: {"street": "Averescu Alexandru Maresal", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "200064", "county": "Dolj", "place_name": "Craiova"}
 input: MIRON COSTIN NR 19 BL 19 SC F AP 7,  BACAU
-output: { "street": "Miron Costin", "house": "19", "flat": "7", "block": "", "staircase": "F", "floor": "1", "apartment": "7", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău" }
+output: { "street": "Miron Costin", "house": "19", "flat": "7", "block": "", "staircase": "F", "floor": "1", "apartment": "7", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău" }
 input: MIRON COSTIN NR 19 BL 19 SCF AP 71,  BACAU
-output: { "street": "Miron Costin", "house": "19", "flat": "71", "block": "19", "staircase": "F", "floor": "", "apartment": "71", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău" }
+output: { "street": "Miron Costin", "house": "19", "flat": "71", "block": "19", "staircase": "F", "floor": "", "apartment": "71", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău" }
 input: MIRON COSTIN NR BL SC F ETJ 1 AP 7 BACĂU, 19,  BACAU
-output: { "street": "Miron Costin", "house": "19", "flat": "7", "block": "", "staircase": "F", "floor": "1", "apartment": "7", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "commune": "", "village": "", "city": "Bacău" }
+output: { "street": "Miron Costin", "house": "19", "flat": "7", "block": "", "staircase": "F", "floor": "1", "apartment": "7", "landmark": "", "intercom": "", "postcode": "", "county": "Bacău", "place_name": "Bacău" }
 input: STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "",  "city" "Pucioasa"}
+output: {"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița",  "place_name" "Pucioasa"}
 input: SITEI, 507085 BRASOV
-output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city" "Brașov"}
+output: {"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "place_name" "Brașov"}
 input: BLD I C BRATIANU 27A/27, 110003 PITESTI
-output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "commune": "", "village": "",  "city" "Pitesti"}
+output: {"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș",  "place_name" "Pitesti"}
 input: STRADA PRIMĂVERII NR 32 SC B,  BOTOSANI
-output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}
+output: {"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": "B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "place_name": "Botoșani"}
 input: STR BUCUREȘTI BL 441 SC A AP 3,  VASLUI
-output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}
+output: {"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "place_name": "Vaslui"}
 input: SLT POPA NR.3 BL 15 A SC 1 AP12 INTERFON 12 SECTOR1 3/15A, 051961 BUCUREȘTI
-output: {"street": "Popa", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "", "postcode": "051961", "county": "București", "commune": "", "village": "", "city": "București, Sector 1"}
+output: {"street": "Popa", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": "", "apartment": "12", "landmark": "", "intercom": "", "postcode": "051961", "county": "București", "place_name": "București, Sector 1"}
 input: 142-148 CALEA VICTORIEI, APARTAMENT 30,  BUCURESTI
-output: {"street": "Calea Victoriei", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Calea Victoriei", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
 input: PRIETENIEI NR 18, 14,  TÂRGU MUREŞ
-output: {"street": "Prieteniei", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "commune": "", "village": "", "city": "Târgu Mureș"}
+output: {"street": "Prieteniei", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "place_name": "Târgu Mureș"}
 input: STR ZAMBILELOR, 106300 URLATI (PRAHOVA)
-output: {"street": "Zambilelor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "commune": "", "village": "", "city": "Urlati"}
+output: {"street": "Zambilelor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "place_name": "Urlati"}
 input: APUSULUI 60-70 BL 71, SC 1, AP 17,, , SECT 64,  BUCURESTI
-output: {"street": "Apusului", "house": "60-70", "flat": "17", "block": "71", "staircase": "1", "floor": "", "apartment": "17", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}
+output: {"street": "Apusului", "house": "60-70", "flat": "17", "block": "71", "staircase": "1", "floor": "", "apartment": "17", "landmark": "", "intercom": "", "postcode": "", "county": "București", "place_name": "București"}
+input: Strada Babadag 7, Bl.3, 820004
+output: {"street": "Babadag", "house": "7", "flat": "17", "block": "3", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "820004", "county": "Tulcea", "place_name": "Tulcea"}

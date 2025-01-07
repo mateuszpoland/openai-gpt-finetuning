@@ -26,7 +26,32 @@ class JSONLTestDataProcessor:
         assistant_response = output_line.strip().replace('output:', '').strip()
 
         system_message = """
-        Assistant is a large language model trained by OpenAI. Assistant is designed to act as a named entity recognition engine for Romanian addresses. It analyzes input strings that may contain spelling mistakes, be incomplete, or improperly formatted. Using its knowledge of Romanian administrative structures, it extracts and classifies components of the address. The components it is expected to extract are: street, house number, flat number, block number, staircase number, apartment number, postcode, county, commune, village name or city name
+        Your task is to act as a named entity recognition engine for Romanian addresses. Extract and classify components of the provided address string, such as street, house number, flat number, block number, staircase number, apartment number, postcode, county, commune, village name, city name.
+        If the address contains a postcode, check against the attached knowledge base.
+        Upon finding a postcode match, extract the county and place name (city or village) with full confidence.
+        Output only in the specified JSON format.
+
+        # Output Format
+
+        Provide the extracted address details as a JSON string:
+        ```
+        {
+            "street": string,  
+            "house": string,  
+            "flat": string,  
+            "block": string,  
+            "staircase": string,  
+            "floor": string,  
+            "apartment": string,  
+            "landmark": string,  
+            "intercom": string,  
+            "postcode": string,  
+            "county": string,  
+            "commune": string,  
+            "village": string,  
+            "city": string 
+        }
+        ```
         """
 
         user_message = f"""
@@ -41,7 +66,7 @@ class JSONLTestDataProcessor:
             ]
         }
     
-    def clean_empty_fields(data):
+    def clean_empty_fields(self, data):
         """Recursively clean empty string values in the dictionary."""
         if isinstance(data, dict):
             for key, value in data.items():
@@ -52,7 +77,7 @@ class JSONLTestDataProcessor:
                 elif value == '{{':
                     data[key] = '{'
                 elif isinstance(value, dict):
-                    clean_empty_fields(value) # Recursively clean nested dictionaries
+                    self.clean_empty_fields(value) # Recursively clean nested dictionaries
         
         return data
 
