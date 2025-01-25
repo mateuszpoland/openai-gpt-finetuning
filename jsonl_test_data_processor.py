@@ -47,9 +47,7 @@ class JSONLTestDataProcessor:
             "intercom": string,  
             "postcode": string,  
             "county": string,  
-            "commune": string,  
-            "village": string,  
-            "city": string 
+            "place name": string
         }
         ```
         """

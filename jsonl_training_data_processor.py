@@ -28,7 +28,7 @@ class JSONLTrainingDataProcessor:
         assistant_response = output_line.strip().replace('output:', '').strip()
 
         system_message = """
-        Your task is to act as a named entity recognition engine for Romanian addresses. Extract and classify components of the provided address string, such as street, house number, flat number, block number, staircase number, apartment number, postcode, county, commune, village name, city name.        """
+        Your task is to act as a named entity recognition engine for Romanian addresses. Extract and classify components of the provided address string, such as street, house number, flat number, block number, staircase number, apartment number, postcode, county and place name.        """
 
         user_message = f"""
         TOOLS 
@@ -52,10 +52,8 @@ class JSONLTrainingDataProcessor:
             "landmark": string  // Additional data contained in the address string, but not part of standard address component. May be valuable for delivery or navigation purposes to identify exact location
             "intercom": string  // The intercom number extracted from Romanian address.
             "postcode": string  // The postcode extracted from Romanian address. 
-            "county": string  // The county extracted or inferred from Romanian address.
-            "commune": string  // The commune name extracted from the Romanian address.
-            "village": string  // The village name extracted from the Romanian address. 
-            "city": string  // The city extracted or inferred from Romanian address.
+            "county": string  // The county extracted or inferred from Romanian address
+            "place_name": string // The place name extracted from attached Knowledge base, based on the extracted post code from input address
         }}
         ```
         --------------------
