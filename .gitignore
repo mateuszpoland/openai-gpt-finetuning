@@ -3,3 +3,4 @@ wandb/
 train/train_processed.jsonl
 test/test_processed.jsonl
 __pycache__
+.history/

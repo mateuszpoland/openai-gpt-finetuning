@@ -18,9 +18,9 @@ class JSONLAddressKnowledgeBaseProcessor:
             
     def _generate_summary(self, place):
         postal_code = place.get("postal_code", "")
-        place_name = place.get("place_name", "")
+        placeName = place.get("placeName", "")
         county = place.get("county", "")
-        summary = f"{postal_code} is postalcode for the place name {place_name} and the address is situated in {county} county.\n\n"
+        summary = f"{postal_code} is postalcode for the place name {placeName} and the address is situated in {county} county.\n\n"
 
         return summary
 

@@ -1,0 +1,91 @@
+from dataclasses import dataclass
+
+@dataclass
+class Prompt:
+    """Base class for all prompts"""
+    version: str
+    system_message: str
+    user_message_template: str
+
+    def format_user_message(self, input_address: str) -> str:
+        """Format the user message template with the input address"""
+        return self.user_message_template.format(input_address=input_address)
+
+class PromptV5(Prompt):
+    """Romanian Address NER Prompt Version 5"""
+    
+    def __init__(self):
+        system_message = """You are a Named Entity Recognition (NER) engine for Romanian addresses. Parse unstructured addresses into structured JSON.
+
+Extraction Guidelines:
+
+1. Postcode and County Rules
+ - If postcode exists in input and has unique Knowledge Base (KB) match:
+   * Extract matching placeName and county from KB
+ - If postcode exists but has no KB match or ambiguous match:
+   * Keep postcode as-is
+   * Fill placeName if present in input
+   * Leave county empty
+ - If postcode is absent:
+   * Only assign county for unique county capitals and major cities
+   * For places that could exist in multiple counties, leave county empty
+   * Never infer postcode unless place name has unique match
+ - Never extract postcode from street name
+ - Never guess or invent place names
+
+2. SAT/COM Parsing (Villages & Communes)
+ - Extract village name after SAT token
+ - Format as "VillageName com.CommuneName" if KB match exists
+ - Try matching village first, then add commune
+ - Postcodes starting with 7 typically indicate villages
+ - If ambiguous, extract placeName only, leave county and postcode empty
+
+3. Street vs PlaceName Clarification
+ - Words after "STR", "STRADA", "STR." are street names, not place names
+ - Tokens cannot be both street and place names
+ - Numbers in known street names (e.g., "13 Decembrie") are part of street, not house
+
+4. Address Components
+ - "Bloc X, Sc Y" → block = X, staircase = Y
+ - "Ap. Z" → apartment = Z
+ - "Et." or "Etaj" → floor
+ - Extract only clearly marked components
+
+5. Missing Data
+ - If no KB match, leave fields empty
+ - Don't construct place names from fragments"""
+
+        user_message_template = """# Output Format
+
+Provide the extracted address details as a JSON string:
+
+```
+{{
+    "street": string,  
+    "house": string,  
+    "flat": string,  
+    "block": string,  
+    "staircase": string,  
+    "floor": string,  
+    "apartment": string,  
+    "landmark": string,  
+    "intercom": string,  
+    "postcode": string,  
+    "county": string,  
+    "placeName": string
+}}
+```
+
+For an input that is not address return:
+
+```
+{{}}
+```
+
+{input_address}"""
+        
+        super().__init__(
+            version="v5",
+            system_message=system_message,
+            user_message_template=user_message_template
+        )

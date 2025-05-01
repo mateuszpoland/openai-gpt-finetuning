@@ -37,27 +37,27 @@ Examples for reference (do not replicate these outputs; they are only to show th
 
 IMPORTANT! Carefully analyze each address and generate the output based on its unique structure, even if it slightly differs from the examples.
 input: STRADA EREMIA GRIGORESCU, NR.11 BL.45B,SC.B NR 11/38, 107065 PLOIESTI
-output: {{"street": "Eremia Grigorescu", "house_number": "11", "flat_number": "38", "block": "45B", "staircase": "45B", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "107065", "county": "Prahova", "commune": "", "village": "", "city" "Ploiesti"}}
+output: {{"street": "Eremia Grigorescu", "house": "11", "flat": "38", "block": "45B", "staircase": "45B", , "apartment": "",  "postcode": "107065", "county": "Prahova", "commune": "", "village": "", "city" "Ploiesti"}}
 input: STR SRG EROU NICOLAE MARIUS BL D1 ET 2 AP 8, PUCIOASA
-output: {{"street": "Srg Erou Nicolae Marius", "house_number": "", "flat_number": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8", "landmark": "", "intercom": "", "postcode": "", "county": "Dâmbovița", "commune": "", "village": "",  "city" "Pucioasa"}}
+output: {{"street": "Srg Erou Nicolae Marius", "house": "", "flat": "", "block": "D1", "staircase": "", floor: "2", "apartment": "8",  "postcode": "", "county": "Dâmbovița", "commune": "", "village": "",  "city" "Pucioasa"}}
 input: SITEI, 507085 BRASOV
-output: {{"street": "Sitei", "house_number": "", "flat_number": "", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city" "Brașov"}}
+output: {{"street": "Sitei", "house": "", "flat": "", "block": "", "staircase": "", , "apartment": "",  "postcode": "507085", "county": "Brașov", "commune": "", "village": "", "city" "Brașov"}}
 input: BLD I C BRATIANU 27A/27, 110003 PITESTI
-output: {{"street": "Boulevard I C Bratianu", "house_number": "27A", "flat_number": "27", "block": "", "staircase": "", floor: "", "apartment": "", "landmark": "", "intercom": "", "postcode": "110003", "county": "Argeș", "commune": "", "village": "",  "city" "Pitesti"}}
+output: {{"street": "Boulevard I C Bratianu", "house": "27A", "flat": "27", "block": "", "staircase": "", , "apartment": "",  "postcode": "110003", "county": "Argeș", "commune": "", "village": "",  "city" "Pitesti"}}
 input: STRADA PRIMĂVERII NR 32 SC B,  BOTOSANI
-output: {{"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": 'B", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}}
+output: {{"street": "Primăverii", "house": "32", "flat": "", "block": "", "staircase": 'B", "apartment": "",  "postcode": "", "county": "Botoșani", "commune": "", "village": "", "city": "Botoșani"}}
 input: STR BUCUREȘTI BL 441 SC A AP 3,  VASLUI
-output: {{"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "floor": "", "apartment": "3", "landmark": "", "intercom": "", "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}}
+output: {{"street": "București", "house": "", "flat": "3", "block": "441", "staircase": "A", "apartment": "3",  "postcode": "", "county": "Vaslui", "commune": "", "village": "", "city": "Vaslui"}}
 input: SLT POPA NR.3 BL 15 A SC 1 AP12 INTERFON 12 SECTOR1 3/15A, 051961 BUCUREȘTI
-output: {{"street': "Popa", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": '', "apartment": "12", "landmark": "", "intercom": "", "postcode": "051961", "county": "București", "commune": "", "village": "", "city": "București, Sector 1"}}
+output: {{"street': "Popa", "house": "3", "flat": "", "block": "15 A", "staircase": "1", "floor": '', "apartment": "12",  "postcode": "051961", "county": "București", "commune": "", "village": "", "city": "București, Sector 1"}}
 input: 142-148 CALEA VICTORIEI, APARTAMENT 30,  BUCURESTI
-output: {{"street": "Calea Victoriei", "house": "142-148", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "30", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}}
+output: {{"street": "Calea Victoriei", "house": "142-148", "flat": "", "block": "", "staircase": "", "apartment": "30",  "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}}
 input: PRIETENIEI NR 18, 14,  TÂRGU MUREŞ
-output: {{"street": "Prieteniei", "house": "18", "flat": "14", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "", "county": "Mureș", "commune": "", "village": "", "city": "Târgu Mureș"}}
+output: {{"street": "Prieteniei", "house": "18", "flat": "14", "block": "", "staircase": "", "apartment": "",  "postcode": "", "county": "Mureș", "commune": "", "village": "", "city": "Târgu Mureș"}}
 input: STR ZAMBILELOR, 106300 URLATI (PRAHOVA)
-output: {{"street": "Zambilelor", "house": "", "flat": "", "block": "", "staircase": "", "floor": "", "apartment": "", "landmark": "", "intercom": "", "postcode": "106300", "county": "Prahova", "commune": "", "village": "", "city": "Urlati"}}
+output: {{"street": "Zambilelor", "house": "", "flat": "", "block": "", "staircase": "", "apartment": "",  "postcode": "106300", "county": "Prahova", "commune": "", "village": "", "city": "Urlati"}}
 input: APUSULUI 60-70 BL 71, SC 1, AP 17,, , SECT 64,  BUCURESTI
-output: {{"street": "Apusului", "house": "60-70", "flat": "17", "block": "71", "staircase": "1", "floor": "", "apartment": "17", "landmark": "", "intercom": "", "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}}
+output: {{"street": "Apusului", "house": "60-70", "flat": "17", "block": "71", "staircase": "1", "apartment": "17",  "postcode": "", "county": "București", "commune": "", "village": "", "city": "București"}}
 
 Remember, each address input is different and should be analyzed on its own. Do not simply replicate the format or content of the examples.
 IMPORTANT!!!

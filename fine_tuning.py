@@ -4,7 +4,7 @@ from openai import OpenAI
 client = OpenAI()
 
 training_file_info = client.files.create(
-    file=open("train/train_processed.jsonl", "rb"),
+    file=open("train/fine-tuning/train_03_processed.jsonl", "rb"),
     purpose="fine-tune"
 )
 
@@ -21,7 +21,7 @@ openai_ft_job_info = client.fine_tuning.jobs.create(
   model=model,
   hyperparameters={"n_epochs": n_epochs},
   validation_file=validation_file_info.id,
-  suffix="RO_Addr_1712_01"
+  suffix="RO_address_processing_2025_05_02"
 )
 
 ft_job_id = openai_ft_job_info.id

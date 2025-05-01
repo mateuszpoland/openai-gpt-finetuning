@@ -1,9 +1,12 @@
 import json
+from typing import Optional
+from train.system_prompts import PromptStrategy, Prompt
 
 class JSONLTestDataProcessor:
-    def __init__(self, input_file_path: str, output_file_path: str) -> None:
+    def __init__(self, input_file_path: str, output_file_path: str, prompt_version: Optional[str] = None) -> None:
         self.input_file_path = input_file_path
         self.output_file_path = output_file_path
+        self.prompt = PromptStrategy.get_prompt(prompt_version)
 
     def process(self):
         with open(self.input_file_path, 'r', encoding='utf-8') as input_file, open(self.output_file_path, 'w') as output_file:
@@ -25,41 +28,10 @@ class JSONLTestDataProcessor:
         input_address = input_line.strip().replace('input:', '').strip()
         assistant_response = output_line.strip().replace('output:', '').strip()
 
-        system_message = """
-        Your task is to act as a named entity recognition engine for Romanian addresses. Extract and classify components of the provided address string, such as street, house number, flat number, block number, staircase number, apartment number, postcode, county, commune, village name, city name.
-        If the address contains a postcode, check against the attached knowledge base.
-        Upon finding a postcode match, extract the county and place name (city or village) with full confidence.
-        Output only in the specified JSON format.
-
-        # Output Format
-
-        Provide the extracted address details as a JSON string:
-        ```
-        {
-            "street": string,  
-            "house": string,  
-            "flat": string,  
-            "block": string,  
-            "staircase": string,  
-            "floor": string,  
-            "apartment": string,  
-            "landmark": string,  
-            "intercom": string,  
-            "postcode": string,  
-            "county": string,  
-            "place name": string
-        }
-        ```
-        """
-
-        user_message = f"""
-        {input_address}
-        """
-
         return {
             "messages": [
-                {"role": "system", "content": system_message.strip()},
-                {"role": "user", "content": user_message.strip()},
+                {"role": "system", "content": self.prompt.system_message.strip()},
+                {"role": "user", "content": self.prompt.format_user_message(input_address).strip()},
                 {"role": "assistant", "content": assistant_response}
             ]
         }
